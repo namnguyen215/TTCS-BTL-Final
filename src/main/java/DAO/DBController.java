@@ -7,12 +7,9 @@ import java.sql.SQLException;
 public class DBController {
     public Connection getConnection() {
         try {
-            String username = "root";
-            String password = "vinh";
             String url = "jdbc:mysql://localhost:3306/Luxstay";
-//            String url = "jdbc:mysql://localhost:3306/Luxstay";
-//            String username = "root";
-//            String password = "Nguyennam6626@";
+            String username = "root";
+            String password = "Nguyennam6626@";
             Class.forName("com.mysql.cj.jdbc.Driver");
 
             return DriverManager.getConnection(url, username, password);
