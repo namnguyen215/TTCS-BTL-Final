@@ -1,0 +1,23 @@
+.room_img img {
+    width: 100%;
+    height: 192px;
+}
+
+.room_info {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+}
+
+.room_deilta,
+.room_vote {
+    font-size: 14px;
+}
+
+.room {
+    margin-bottom: 20px;
+}
+
+.room > * {
+    color: black;
+}
